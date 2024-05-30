@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+  background-color: #555;
+}
+.down{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.up{
+   padding-top: 20px;
+    width: 100%;
+    /* background-color: #4a89ff; */
+    text-align: center;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #084cdf;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+  }
+  
+  input[type=file]::file-selector-button:hover {
+    background: #0d45a5;
+  }
+.drop-container {
+    width: 90%;
+    position: relative;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px dashed #555;
+    color: #444;
+    cursor: pointer;
+    background: #eee;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+  }
+  
+  .drop-container:hover {
+    
+    border-color: #111;
+  }
+  
+  .drop-container:hover .drop-title {
+    color: #222;
+  }
+  
+  .drop-title {
+    color: #444;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    transition: color .2s ease-in-out;
+  }
+
+.btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+  .text{
+    background-color: #fff;
+    width: 200vh;
+    padding-top: 50px;
+    width: 95%;
+    height: 40vh;
+    border-radius: 30px;
+    font-family: "Raleway", sans-serif;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  .card{
+    margin-top: 50px;
+  }
+  .load{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-weight: 400p;
+  }
